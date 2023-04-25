@@ -9,12 +9,11 @@
 </pre>
 
 3. C:\xampp8.1.2\apache\conf\extra 폴더 내의 httpd-vhosts.conf 파일 안에 내용 추가 <br>
-<pre>
-  <VirtualHost *:80>
-    DocumentRoot "C:/xampp8.1.2/htdocs/restapi4/product" <br>
-    ServerName product.com <br>
-    ServerAlias www.product.com <br>
-    <Directory "C:/xampp8.1.2/htdocs/restapi4/product"> <br>
-    </Directory> <br>
-  </VirtualHost> <br>
-</pre>
+
+<VirtualHost \*:80>
+DocumentRoot "C:/xampp8.1.2/htdocs/restapi4/product"
+ServerName product.com
+ServerAlias www.product.com
+<Directory "C:/xampp8.1.2/htdocs/restapi4/product">
+</Directory>
+</VirtualHost>
