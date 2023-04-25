@@ -1,0 +1,3 @@
+# 모든 url 접근은 index.php로 이동
+RewriteEngine On
+RewriteRule . index.php
